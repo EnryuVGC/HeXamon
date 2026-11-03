@@ -1,0 +1,225 @@
+[
+  {
+    "name": "Snow",
+    "hex": "#FFFFFF",
+    "cards": [
+      3,
+      8,
+      9
+    ]
+  },
+  {
+    "name": "Ice",
+    "hex": "#CFF1FF",
+    "cards": [
+      3,
+      8,
+      9
+    ]
+  },
+  {
+    "name": "Lemon",
+    "hex": "#FFF3A3",
+    "cards": [
+      3,
+      8,
+      9
+    ]
+  },
+  {
+    "name": "Gold",
+    "hex": "#FFD23F",
+    "cards": [
+      3,
+      8,
+      9
+    ]
+  },
+  {
+    "name": "Peach",
+    "hex": "#FFD0B0",
+    "cards": [
+      3,
+      8,
+      9
+    ]
+  },
+  {
+    "name": "Blush",
+    "hex": "#FFC2DD",
+    "cards": [
+      3,
+      8,
+      9
+    ]
+  },
+  {
+    "name": "Lilac",
+    "hex": "#E2CCFF",
+    "cards": [
+      3,
+      8,
+      9
+    ]
+  },
+  {
+    "name": "Mint",
+    "hex": "#B8F5C9",
+    "cards": [
+      3,
+      8,
+      9
+    ]
+  },
+  {
+    "name": "Aqua",
+    "hex": "#7DE8E8",
+    "cards": [
+      3,
+      8,
+      9
+    ]
+  },
+  {
+    "name": "Coral",
+    "hex": "#FF8E72",
+    "cards": [
+      3,
+      8
+    ]
+  },
+  {
+    "name": "Ink",
+    "hex": "#16161D",
+    "cards": [
+      2,
+      4,
+      5,
+      6,
+      7,
+      10
+    ]
+  },
+  {
+    "name": "Charcoal",
+    "hex": "#33363F",
+    "cards": [
+      2,
+      5,
+      7,
+      10
+    ]
+  },
+  {
+    "name": "Navy",
+    "hex": "#14285F",
+    "cards": [
+      2,
+      5,
+      7,
+      10
+    ]
+  },
+  {
+    "name": "Royal",
+    "hex": "#2438A8",
+    "cards": [
+      2,
+      5,
+      7,
+      10
+    ]
+  },
+  {
+    "name": "Forest",
+    "hex": "#0F4D2A",
+    "cards": [
+      2,
+      5,
+      7,
+      10
+    ]
+  },
+  {
+    "name": "Teal",
+    "hex": "#085B5B",
+    "cards": [
+      2,
+      5,
+      7,
+      10
+    ]
+  },
+  {
+    "name": "Plum",
+    "hex": "#4F1464",
+    "cards": [
+      2,
+      5,
+      7,
+      10
+    ]
+  },
+  {
+    "name": "Berry",
+    "hex": "#8A0F4B",
+    "cards": [
+      2,
+      5,
+      7,
+      10
+    ]
+  },
+  {
+    "name": "Crimson",
+    "hex": "#8E1020",
+    "cards": [
+      2,
+      5,
+      7,
+      10
+    ]
+  },
+  {
+    "name": "Cocoa",
+    "hex": "#4A2612",
+    "cards": [
+      2,
+      5,
+      7,
+      10
+    ]
+  },
+  {
+    "name": "White",
+    "hex": "#FFFFFF"
+  },
+  {
+    "name": "Light Gray",
+    "hex": "#C8C8C8"
+  },
+  {
+    "name": "Dark Gray",
+    "hex": "#555555"
+  },
+  {
+    "name": "Black",
+    "hex": "#000000"
+  },
+  {
+    "name": "Orange",
+    "hex": "#F08030"
+  },
+  {
+    "name": "Yellow",
+    "hex": "#F8D030"
+  },
+  {
+    "name": "Blue",
+    "hex": "#3070E0"
+  },
+  {
+    "name": "Pink",
+    "hex": "#F85888"
+  }
+]

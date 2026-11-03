@@ -1,0 +1,33 @@
+hunt - hunt for pokemon
+open - open the hunt keyboard
+challenge - battle another user
+mystats - check your player stats
+myinventory - check your inventory
+mypokemon - show your pokemon
+myteam - edit your current active pokemon
+nickname - rename a pokemon
+stats - check stats of a pokemon
+inspect - check IVs and EVs of a pokemon
+evolve - evolve a pokemon
+release - release a pokemon
+trade - trade pokemon
+give - give Poke Dollars to other players
+pokestore - visit the poke store
+boost - increase pokemon IV points
+vitamin - increase pokemon EV points
+berry - decrease pokemon EV points
+candy - increase pokemon level
+travel - travel to different regions
+safari - hunt for rare pokemon
+enter - enter the safari zone
+exit - leave the safari zone
+evtrain - train a specific EV stat
+pokedex - search pokemon in your personal pokedex
+pokedexall - view all your pokedex entries
+minigames - play mini games
+song - play the pokemon song
+events - view active events
+lottery - play the daily lottery
+lotteryinfo - see how the lottery works
+lastlottery - see last night's winning numbers
+referrals - invite players and get rewards

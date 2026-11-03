@@ -1,0 +1,769 @@
+{
+  "1": {
+    "id": 424,
+    "name": "fire-fang",
+    "price": 2500
+  },
+  "2": {
+    "id": 422,
+    "name": "thunder-fang",
+    "price": 2500
+  },
+  "3": {
+    "id": 423,
+    "name": "ice-fang",
+    "price": 2500
+  },
+  "4": {
+    "id": 352,
+    "name": "water-pulse",
+    "price": 2000
+  },
+  "5": {
+    "id": 512,
+    "name": "acrobatics",
+    "price": 8000
+  },
+  "6": {
+    "id": 369,
+    "name": "u-turn",
+    "price": 3000
+  },
+  "7": {
+    "id": 60,
+    "name": "psybeam",
+    "price": 2000
+  },
+  "9": {
+    "id": 451,
+    "name": "charge-beam",
+    "price": 1500
+  },
+  "10": {
+    "id": 83,
+    "name": "fire-spin",
+    "price": 1000
+  },
+  "11": {
+    "id": 263,
+    "name": "facade",
+    "price": 2500
+  },
+  "12": {
+    "id": 342,
+    "name": "poison-tail",
+    "price": 1500
+  },
+  "13": {
+    "id": 332,
+    "name": "aerial-ace",
+    "price": 2500
+  },
+  "14": {
+    "id": 523,
+    "name": "bulldoze",
+    "price": 2000
+  },
+  "15": {
+    "id": 506,
+    "name": "hex",
+    "price": 7050
+  },
+  "16": {
+    "id": 555,
+    "name": "snarl",
+    "price": 1750
+  },
+  "17": {
+    "id": 232,
+    "name": "metal-claw",
+    "price": 1500
+  },
+  "18": {
+    "id": 345,
+    "name": "magical-leaf",
+    "price": 2500
+  },
+  "19": {
+    "id": 196,
+    "name": "icy-wind",
+    "price": 1750
+  },
+  "20": {
+    "id": 341,
+    "name": "mud-shot",
+    "price": 1750
+  },
+  "21": {
+    "id": 317,
+    "name": "rock-tomb",
+    "price": 2000
+  },
+  "22": {
+    "id": 577,
+    "name": "draining-kiss",
+    "price": 1500
+  },
+  "23": {
+    "id": 488,
+    "name": "flame-charge",
+    "price": 1500
+  },
+  "24": {
+    "id": 490,
+    "name": "low-sweep",
+    "price": 2250
+  },
+  "25": {
+    "id": 314,
+    "name": "air-cutter",
+    "price": 2000
+  },
+  "26": {
+    "id": 500,
+    "name": "stored-power",
+    "price": 1500
+  },
+  "28": {
+    "id": 525,
+    "name": "dragon-tail",
+    "price": 2500
+  },
+  "29": {
+    "id": 474,
+    "name": "venoshock",
+    "price": 7050
+  },
+  "30": {
+    "id": 419,
+    "name": "avalanche",
+    "price": 2000
+  },
+  "31": {
+    "id": 684,
+    "name": "smart-strike",
+    "price": 3000
+  },
+  "32": {
+    "id": 473,
+    "name": "psyshock",
+    "price": 3500
+  },
+  "33": {
+    "id": 91,
+    "name": "dig",
+    "price": 3000
+  },
+  "35": {
+    "id": 206,
+    "name": "false-swipe",
+    "price": 1000
+  },
+  "36": {
+    "id": 280,
+    "name": "brick-break",
+    "price": 3000
+  },
+  "37": {
+    "id": 428,
+    "name": "zen-headbutt",
+    "price": 3500
+  },
+  "39": {
+    "id": 403,
+    "name": "air-slash",
+    "price": 3000
+  },
+  "40": {
+    "id": 34,
+    "name": "body-slam",
+    "price": 3500
+  },
+  "44": {
+    "id": 402,
+    "name": "seed-bomb",
+    "price": 3500
+  },
+  "46": {
+    "id": 409,
+    "name": "drain-punch",
+    "price": 3000
+  },
+  "48": {
+    "id": 127,
+    "name": "waterfall",
+    "price": 3500
+  },
+  "49": {
+    "id": 337,
+    "name": "dragon-claw",
+    "price": 4000
+  },
+  "50": {
+    "id": 605,
+    "name": "dazzling-gleam",
+    "price": 3500
+  },
+  "52": {
+    "id": 398,
+    "name": "poison-jab",
+    "price": 3500
+  },
+  "53": {
+    "id": 707,
+    "name": "stomping-tantrum",
+    "price": 3000
+  },
+  "55": {
+    "id": 776,
+    "name": "body-press",
+    "price": 3500
+  },
+  "56": {
+    "id": 399,
+    "name": "dark-pulse",
+    "price": 3500
+  },
+  "57": {
+    "id": 430,
+    "name": "flash-cannon",
+    "price": 3500
+  },
+  "59": {
+    "id": 141,
+    "name": "leech-life",
+    "price": 3500
+  },
+  "60": {
+    "id": 19,
+    "name": "fly",
+    "price": 4500
+  },
+  "61": {
+    "id": 442,
+    "name": "iron-head",
+    "price": 3750
+  },
+  "63": {
+    "id": 408,
+    "name": "power-gem",
+    "price": 3500
+  },
+  "64": {
+    "id": 441,
+    "name": "gunk-shot",
+    "price": 5000
+  },
+  "65": {
+    "id": 404,
+    "name": "x-scissor",
+    "price": 3500
+  },
+  "66": {
+    "id": 529,
+    "name": "drill-run",
+    "price": 3500
+  },
+  "68": {
+    "id": 242,
+    "name": "crunch",
+    "price": 3500
+  },
+  "69": {
+    "id": 710,
+    "name": "liquidation",
+    "price": 4000
+  },
+  "70": {
+    "id": 202,
+    "name": "giga-drain",
+    "price": 3250
+  },
+  "71": {
+    "id": 396,
+    "name": "aura-sphere",
+    "price": 4000
+  },
+  "72": {
+    "id": 247,
+    "name": "shadow-ball",
+    "price": 4000
+  },
+  "73": {
+    "id": 315,
+    "name": "overheat",
+    "price": 6000
+  },
+  "75": {
+    "id": 304,
+    "name": "hyper-voice",
+    "price": 4500
+  },
+  "76": {
+    "id": 412,
+    "name": "energy-ball",
+    "price": 4500
+  },
+  "77": {
+    "id": 94,
+    "name": "psychic",
+    "price": 4500
+  },
+  "79": {
+    "id": 57,
+    "name": "surf",
+    "price": 5000
+  },
+  "80": {
+    "id": 58,
+    "name": "ice-beam",
+    "price": 4500
+  },
+  "81": {
+    "id": 53,
+    "name": "flamethrower",
+    "price": 4500
+  },
+  "82": {
+    "id": 85,
+    "name": "thunderbolt",
+    "price": 4500
+  },
+  "83": {
+    "id": 583,
+    "name": "play-rough",
+    "price": 4500
+  },
+  "85": {
+    "id": 414,
+    "name": "earth-power",
+    "price": 4500
+  },
+  "87": {
+    "id": 427,
+    "name": "psycho-cut",
+    "price": 2750
+  },
+  "88": {
+    "id": 89,
+    "name": "earthquake",
+    "price": 6000
+  },
+  "89": {
+    "id": 444,
+    "name": "stone-edge",
+    "price": 6000
+  },
+  "90": {
+    "id": 416,
+    "name": "giga-impact",
+    "price": 7500
+  },
+  "91": {
+    "id": 56,
+    "name": "hydro-pump",
+    "price": 6000
+  },
+  "92": {
+    "id": 542,
+    "name": "hurricane",
+    "price": 6000
+  },
+  "94": {
+    "id": 394,
+    "name": "flare-blitz",
+    "price": 6500
+  },
+  "95": {
+    "id": 411,
+    "name": "focus-blast",
+    "price": 6000
+  },
+  "96": {
+    "id": 437,
+    "name": "leaf-storm",
+    "price": 6500
+  },
+  "97": {
+    "id": 63,
+    "name": "hyper-beam",
+    "price": 7500
+  },
+  "98": {
+    "id": 413,
+    "name": "brave-bird",
+    "price": 6500
+  },
+  "99": {
+    "id": 299,
+    "name": "blaze-kick",
+    "price": 4000
+  },
+  "100": {
+    "id": 440,
+    "name": "cross-poison",
+    "price": 2500
+  },
+  "101": {
+    "id": 370,
+    "name": "close-combat",
+    "price": 6500
+  },
+  "102": {
+    "id": 76,
+    "name": "solar-beam",
+    "price": 6000
+  },
+  "105": {
+    "id": 663,
+    "name": "darkest-lariat",
+    "price": 4000
+  },
+  "107": {
+    "id": 410,
+    "name": "vacuum-wave",
+    "price": 2000
+  },
+  "108": {
+    "id": 667,
+    "name": "high-horsepower",
+    "price": 5000
+  },
+  "109": {
+    "id": 503,
+    "name": "scald",
+    "price": 3750
+  },
+  "110": {
+    "id": 438,
+    "name": "power-whip",
+    "price": 6500
+  },
+  "115": {
+    "id": 675,
+    "name": "throat-chop",
+    "price": 5000
+  },
+  "121": {
+    "id": 574,
+    "name": "disarming-voice",
+    "price": 2000
+  },
+  "122": {
+    "id": 885,
+    "name": "trailblaze",
+    "price": 2000
+  },
+  "123": {
+    "id": 884,
+    "name": "pounce",
+    "price": 1750
+  },
+  "124": {
+    "id": 886,
+    "name": "chilling-water",
+    "price": 2000
+  },
+  "125": {
+    "id": 421,
+    "name": "shadow-claw",
+    "price": 3000
+  },
+  "127": {
+    "id": 521,
+    "name": "volt-switch",
+    "price": 3000
+  },
+  "130": {
+    "id": 861,
+    "name": "ice-spinner",
+    "price": 3500
+  },
+  "132": {
+    "id": 706,
+    "name": "psychic-fangs",
+    "price": 4000
+  },
+  "138": {
+    "id": 157,
+    "name": "rock-slide",
+    "price": 3250
+  },
+  "141": {
+    "id": 527,
+    "name": "electroweb",
+    "price": 1750
+  },
+  "145": {
+    "id": 406,
+    "name": "dragon-pulse",
+    "price": 4500
+  },
+  "146": {
+    "id": 126,
+    "name": "fire-blast",
+    "price": 6000
+  },
+  "147": {
+    "id": 59,
+    "name": "blizzard",
+    "price": 6000
+  },
+  "152": {
+    "id": 188,
+    "name": "sludge-bomb",
+    "price": 4500
+  },
+  "153": {
+    "id": 566,
+    "name": "phantom-force",
+    "price": 4500
+  },
+  "154": {
+    "id": 528,
+    "name": "wild-charge",
+    "price": 4500
+  },
+  "157": {
+    "id": 612,
+    "name": "power-up-punch",
+    "price": 1500
+  },
+  "158": {
+    "id": 405,
+    "name": "bug-buzz",
+    "price": 4500
+  },
+  "159": {
+    "id": 87,
+    "name": "thunder",
+    "price": 6000
+  },
+  "160": {
+    "id": 679,
+    "name": "lunge",
+    "price": 3500
+  },
+  "162": {
+    "id": 851,
+    "name": "tera-blast",
+    "price": 5000
+  },
+  "164": {
+    "id": 479,
+    "name": "smack-down",
+    "price": 2000
+  },
+  "166": {
+    "id": 450,
+    "name": "bug-bite",
+    "price": 2000
+  },
+  "167": {
+    "id": 915,
+    "name": "temper-flare",
+    "price": 3250
+  },
+  "168": {
+    "id": 250,
+    "name": "whirlpool",
+    "price": 1250
+  },
+  "169": {
+    "id": 330,
+    "name": "muddy-water",
+    "price": 4500
+  },
+  "170": {
+    "id": 916,
+    "name": "supercell-slam",
+    "price": 5500
+  },
+  "175": {
+    "id": 914,
+    "name": "alluring-voice",
+    "price": 4000
+  },
+  "180": {
+    "id": 156,
+    "name": "dream-eater",
+    "price": 5000
+  },
+  "182": {
+    "id": 158,
+    "name": "sludge-wave",
+    "price": 5000
+  },
+  "184": {
+    "id": 224,
+    "name": "megahorn",
+    "price": 7000
+  },
+  "185": {
+    "id": 693,
+    "name": "brutal-swing",
+    "price": 2500
+  },
+  "187": {
+    "id": 307,
+    "name": "blast-burn",
+    "price": 7500,
+    "any_method": true
+  },
+  "188": {
+    "id": 38,
+    "name": "double-edge",
+    "price": 6500,
+    "any_method": true
+  },
+  "189": {
+    "id": 434,
+    "name": "draco-meteor",
+    "price": 6250,
+    "any_method": true
+  },
+  "190": {
+    "id": 7,
+    "name": "fire-punch",
+    "price": 3000,
+    "any_method": true
+  },
+  "191": {
+    "id": 264,
+    "name": "focus-punch",
+    "price": 7500,
+    "any_method": true
+  },
+  "192": {
+    "id": 338,
+    "name": "frenzy-plant",
+    "price": 7500,
+    "any_method": true
+  },
+  "193": {
+    "id": 8,
+    "name": "ice-punch",
+    "price": 3000,
+    "any_method": true
+  },
+  "194": {
+    "id": 231,
+    "name": "iron-tail",
+    "price": 5250,
+    "any_method": true
+  },
+  "195": {
+    "id": 308,
+    "name": "hydro-cannon",
+    "price": 7500,
+    "any_method": true
+  },
+  "196": {
+    "id": 387,
+    "name": "last-resort",
+    "price": 7000,
+    "any_method": true
+  },
+  "197": {
+    "id": 800,
+    "name": "meteor-beam",
+    "price": 6500,
+    "any_method": true
+  },
+  "198": {
+    "id": 200,
+    "name": "outrage",
+    "price": 6500,
+    "any_method": true
+  },
+  "199": {
+    "id": 809,
+    "name": "poltergeist",
+    "price": 6000,
+    "any_method": true
+  },
+  "200": {
+    "id": 143,
+    "name": "sky-attack",
+    "price": 7000,
+    "any_method": true
+  },
+  "201": {
+    "id": 796,
+    "name": "steel-beam",
+    "price": 7000,
+    "any_method": true
+  },
+  "202": {
+    "id": 798,
+    "name": "steel-roller",
+    "price": 6250,
+    "any_method": true
+  },
+  "203": {
+    "id": 276,
+    "name": "superpower",
+    "price": 6500,
+    "any_method": true
+  },
+  "205": {
+    "id": 9,
+    "name": "thunder-punch",
+    "price": 3000,
+    "any_method": true
+  },
+  "206": {
+    "id": 344,
+    "name": "volt-tackle",
+    "price": 6500,
+    "any_method": true
+  },
+  "207": {
+    "id": 492,
+    "name": "foul-play",
+    "price": 5000,
+    "any_method": true
+  },
+  "208": {
+    "id": 333,
+    "name": "icicle-spear",
+    "price": 3000,
+    "any_method": true
+  },
+  "209": {
+    "id": 799,
+    "name": "scale-shot",
+    "price": 3000,
+    "any_method": true
+  },
+  "210": {
+    "id": 331,
+    "name": "bullet-seed",
+    "price": 3000,
+    "any_method": true
+  },
+  "211": {
+    "id": 350,
+    "name": "rock-blast",
+    "price": 3000,
+    "any_method": true
+  },
+  "212": {
+    "id": 802,
+    "name": "misty-explosion",
+    "price": 5250,
+    "any_method": true
+  },
+  "213": {
+    "id": 248,
+    "name": "future-sight",
+    "price": 6500,
+    "any_method": true
+  },
+  "214": {
+    "id": 669,
+    "name": "solar-blade",
+    "price": 6500,
+    "any_method": true
+  }
+}
