@@ -64,6 +64,11 @@ TM_BACK = "back"
 TM_PICK = "pick"
 TM_FORGET = "forget"
 TM_LEARNERS_BACK = "list"
+KEY_SELL_LIST = "list"
+KEY_SELL_PICK = "pick"
+KEY_SELL_CONFIRM = "yes"
+KEY_SELL_CANCEL = "cancel"
+KEY_SELL_BUTTONS_PER_ROW = 2
 SORT_BUTTONS_PER_ROW = 6
 DISPLAY_BUTTONS_PER_ROW = 5
 LOTTERY_PLAY = "play"
@@ -934,6 +939,13 @@ class TmAction(CallbackData, prefix="tm"):
 class StorePage(CallbackData, prefix="store"):
     owner_id: int
     page: str
+
+
+class KeyItemSale(CallbackData, prefix="ksell"):
+    owner_id: int
+    action: str
+    stone: int = -1
+    page: int = 1
 
 
 def _store_button(page: str, owner_id: int) -> InlineKeyboardButton:

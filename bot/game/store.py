@@ -68,6 +68,22 @@ def parse_order(args: str | None) -> tuple[Good, int] | None:
     return good, amount
 
 
+KEY_ITEM_SELL_PRICE = "key_item_sell"
+KEY_ITEMS_PER_PAGE = 40
+_KEY_ITEM_WORDS = {
+    "ite", "item", "items", "keyitem", "keyitems", "key",
+    "stone", "stones", "megastone", "megastones", "mega",
+}
+
+
+def is_key_item_request(args: str | None) -> bool:
+    return "".join((args or "").casefold().split()).replace("-", "").replace("_", "") in _KEY_ITEM_WORDS
+
+
+def key_item_price() -> int:
+    return price_of(KEY_ITEM_SELL_PRICE)
+
+
 def tm_price(move_name: str) -> int:
     return pokedex.move_data(move_name)["power"] * TM_PRICE_PER_POWER
 

@@ -34,6 +34,24 @@ def stone_of_command(command: str) -> str | None:
     return None
 
 
+def _stone_key(name: str) -> str:
+    return "".join(name.casefold().replace("-", " ").replace("_", " ").split())
+
+
+def stone_named(name: str | None) -> str | None:
+    wanted = _stone_key(name or "")
+    return next((stone for stone in catalog.load("mega_stone_image_ids") if _stone_key(stone) == wanted), None)
+
+
+def stone_index(stone: str) -> int:
+    return list(catalog.load("mega_stone_image_ids")).index(stone)
+
+
+def stone_at(index: int) -> str | None:
+    stones = list(catalog.load("mega_stone_image_ids"))
+    return stones[index] if 0 <= index < len(stones) else None
+
+
 def owned_tms(tms: dict) -> list[tuple[int, int]]:
     known = catalog.load("technical_machines")
     return sorted((int(number), count) for number, count in tms.items() if count > 0 and number in known)

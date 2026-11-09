@@ -646,6 +646,13 @@ class TrainerStore:
         )
         return result.modified_count == 1
 
+    async def sell_stone(self, trainer_id: int, stone: str, price: int, idle_seconds: int) -> bool:
+        result = await self._trainers.update_one(
+            {"_id": trainer_id, "mega_stones": stone, **_not_in_battle_or_trade(idle_seconds)},
+            {"$pull": {"mega_stones": stone}, "$inc": {"money": price}},
+        )
+        return result.modified_count == 1
+
     async def buy_key_stone(self, trainer_id: int, cost: int) -> bool:
         result = await self._trainers.update_one(
             {"_id": trainer_id, "money": {"$gte": cost}, "key_stone": {"$ne": True}},

@@ -20,5 +20,6 @@
   "vitamin":        50,
   "boost":         400,
   "key_stone":    5000,
-  "egg_incubator": 5000
+  "egg_incubator": 5000,
+  "key_item_sell": 5000
 }
