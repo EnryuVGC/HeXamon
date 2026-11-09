@@ -7,6 +7,8 @@ from bot.game import pokedex
 
 WEEKLY_TM_COUNT = 5
 TM_PRICE_PER_POWER = 7
+STRONG_TM_POWER = 100
+STRONG_TM_CHANCE = 0.05
 SELL_DIVISOR = 2
 MAX_TRADE_AMOUNT = 100000
 KEY_STONE = "key_stone"
@@ -92,9 +94,23 @@ def _sold_tms() -> list[int]:
     return sorted(int(number) for number in catalog.load("technical_machines"))
 
 
+def _is_strong_tm(number: int) -> bool:
+    name = catalog.load("technical_machines")[str(number)]["name"]
+    return (pokedex.move_data(name)["power"] or 0) >= STRONG_TM_POWER
+
+
 def weekly_tms(trainer_id: int, today: date) -> list[int]:
     year, week, _ = today.isocalendar()
-    return Random(f"{trainer_id}-{year}-{week}").sample(_sold_tms(), WEEKLY_TM_COUNT)
+    rng = Random(f"{trainer_id}-{year}-{week}")
+    strong = [number for number in _sold_tms() if _is_strong_tm(number)]
+    weak = [number for number in _sold_tms() if not _is_strong_tm(number)]
+    picked = []
+    for _ in range(WEEKLY_TM_COUNT):
+        pool = strong if strong and (rng.random() < STRONG_TM_CHANCE or not weak) else weak
+        number = rng.choice(pool)
+        pool.remove(number)
+        picked.append(number)
+    return sorted(picked)
 
 
 def tm_purchase(number: int, today: date) -> str:
