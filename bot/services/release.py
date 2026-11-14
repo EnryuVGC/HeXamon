@@ -17,6 +17,7 @@ HATCHED = "hatched"
 class ReleaseResult:
     status: str
     pokemon: dict | None = None
+    fled: dict | None = None
 
 
 async def can_lose_one(stores: Stores, trainer_id: int) -> bool:
@@ -54,9 +55,10 @@ async def release(stores: Stores, trainer_id: int, pokemon_id: str, message_id: 
         in_battle = await stores.trainers.in_battle(trainer_id, BATTLE_IDLE_SECONDS)
         return ReleaseResult(IN_BATTLE if in_battle else LAST_POKEMON)
 
+    fled = await stores.trainers.flee_found_encounter(trainer_id, pokemon_id)
     deleted = await stores.pokemon.delete(trainer_id, pokemon_id)
     await stores.trainers.finish_release(trainer_id, pokemon_id, counted=deleted is not None)
     if deleted is None:
-        return ReleaseResult(GONE)
+        return ReleaseResult(GONE, fled=fled)
     await stores.trainers.take_release_prompt(trainer_id, pokemon_id, message_id)
-    return ReleaseResult(RELEASED, deleted)
+    return ReleaseResult(RELEASED, deleted, fled)
