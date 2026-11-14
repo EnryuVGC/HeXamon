@@ -955,11 +955,24 @@ class TrainerStore:
             update["$inc"] = {"pokemon_count": -1}
         await self._trainers.update_one({"_id": trainer_id, "pending_releases": pokemon_id}, update)
 
-    async def drop_found_encounter(self, trainer_id: int, pokemon_id: str) -> None:
-        await self._trainers.update_one(
+    async def flee_found_encounter(self, trainer_id: int, pokemon_id: str) -> dict | None:
+        trainer = await self._trainers.find_one_and_update(
             {"_id": trainer_id, "encounter.state": "found", "encounter.player_id": pokemon_id},
-            {"$unset": {"encounter": ""}},
+            [
+                {
+                    "$set": {
+                        "last_fled": {
+                            "id": "$encounter.id",
+                            "wild": "$encounter.wild",
+                            "expert": "$encounter.expert",
+                        }
+                    }
+                },
+                {"$unset": "encounter"},
+            ],
+            projection={"encounter": 1},
         )
+        return trainer["encounter"] if trainer else None
 
     async def set_nickname_prompt(self, trainer_id: int, pokemon_id: str, chat_id: int, message_id: int) -> None:
         await self._trainers.update_one(

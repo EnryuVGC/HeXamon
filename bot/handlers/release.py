@@ -4,6 +4,7 @@ from aiogram import F, Router
 from aiogram.types import CallbackQuery, Message, ReplyParameters
 
 from bot.game import creatures
+from bot.handlers.hunt import announce_fled
 from bot.handlers.pokemon_picker import pokemon_command
 from bot.services import release
 from bot.storage.stores import Stores
@@ -121,6 +122,8 @@ async def release_confirmed(callback: CallbackQuery, callback_data: ReleaseActio
         callback_data.pokemon_id,
         callback.message.message_id,
     )
+    if result.fled is not None:
+        await announce_fled(callback.bot, result.fled)
     if result.status == release.GONE:
         await _gone(callback)
     elif result.status == release.HATCHED:
